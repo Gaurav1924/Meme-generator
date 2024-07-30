@@ -1,5 +1,5 @@
 import React from "react"
-
+import "../style.css" ;
 export default function Meme() {
     const [meme, setMeme] = React.useState({
         topText: "",
